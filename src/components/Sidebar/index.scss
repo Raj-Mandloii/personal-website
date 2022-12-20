@@ -16,11 +16,12 @@
             margin: 8px auto;
             width: 24px;
             height: auto;
-
-            &.sub-logo {
-                width: 50px;
-
-            }
+        }
+        .sub-logo {
+            // width: 50px;
+            text-decoration: none;
+            color: #ffd700;
+            text-align: center;
         }
     }
 
