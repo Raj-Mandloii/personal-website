@@ -1,5 +1,5 @@
 import "./index.scss"
-import LogoTitle from "../../assets/images/logo-s.png"
+import LogoTitle from "../../assets/images/r-logo.png"
 import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
 import AnimatedLetters from '../AnimatedLetters/index'
@@ -26,7 +26,7 @@ const Home = () => {
                         <br />
                         <span className={`${letterClass} _13`}>I</span>
                         <span className={`${letterClass} _14`}>'m</span>
-                        <img src={LogoTitle} alt="developer" />
+                        <img style={{width:"42px",paddingRight:"1rem"}} src={LogoTitle} alt="developer" />
                         <AnimatedLetters letterClass={letterClass}
                             strArray={nameArray}
                             idx={15}
@@ -37,7 +37,7 @@ const Home = () => {
                             idx={22}
                         />
                         <br />
-                        web developer
+                        
                     </h1>
                     <h2>Frontend Developer / JavaSript Developer / Flutter Developer</h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
